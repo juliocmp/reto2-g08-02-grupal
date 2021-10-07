@@ -1,0 +1,40 @@
+maquina virtual
+vcng8reto2
+
+DIRECCION  IP  PUBLICA
+ssh -i ssh-key-2021-10-01.key opc@129.151.121.96
+
+
+DESDE  GITHUB BASH  
+
+instalar  apache
+sudo yum install -y httpd
+
+reiniciar httpd
+
+sudo systemctl restart httpd
+
+
+sudo firewall-cmd --add-service=http --permanent
+
+
+sudo firewall-cmd --reload
+
+
+cd /var/www                                 /var/www/html
+
+sudo chmod 777 html
+
+
+sudo yum install git
+
+cd html
+
+pwd https://github.com/sergioarboledarepositoriog8/peticionajaxg8.git
+
+git clone https://github.com/carcacmt/ajaxg8
+
+
+
+https://github.com/juliocmp/reto2-g08-02-grupal.git
+
